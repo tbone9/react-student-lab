@@ -1,6 +1,6 @@
 import React from "react";
 
-const Score = props => (
+const Scores = props => (
   <div>
     {props.scores.map(scores => (
       <h5>
@@ -10,4 +10,4 @@ const Score = props => (
   </div>
 );
 
-export default Score;
+export default Scores;

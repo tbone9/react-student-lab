@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Score from "./Score";
+import Scores from "./Scoress";
 
 class ListOfStudents extends Component {
   render(props) {
@@ -9,7 +9,7 @@ class ListOfStudents extends Component {
           <div key={`${student.name}`}> 
             <h3>{student.name}</h3> 
             <p>{student.bio}</p> 
-            <Score scores={student.scores} />
+            <Scores scores={student.scores} />
           </div>
         )}
       </div>
