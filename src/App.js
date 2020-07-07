@@ -63,8 +63,6 @@ const Student= [
     }
   ];
 
-let idx = Student.length;
-
 
 class App extends Component {
     render() {
@@ -76,7 +74,6 @@ class App extends Component {
         <main>
           <ListOfStudents
             ListOfStudents={Student}
-            idx={idx}
           />
         </main>
       </div>
